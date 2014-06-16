@@ -1,0 +1,522 @@
+body { 
+  font-size: 14px; 
+  font-size: .94rem;
+  line-height: 1.4rem;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+html,
+body,
+section,
+nav,
+article,
+aside,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+header,
+footer,
+address,
+p,
+hr,
+pre,
+blockquote,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+figure,
+figcaption,
+div,
+a,
+em,
+strong,
+small,
+s,
+cite,
+q,
+dfn,
+abbr,
+time,
+code,
+var,
+samp,
+kbd,
+sub,
+sup,
+i,
+b,
+mark,
+span,
+br,
+ins,
+del,
+img,
+iframe,
+embed,
+object,
+video,
+audio,
+canvas,
+map,
+area,
+table,
+caption,
+colgroup,
+tbody,
+thead,
+tfoot,
+tr,
+td,
+th,
+form,
+fieldset,
+legend,
+label,
+input,
+button,
+select,
+textarea,
+details,
+summary,
+command,
+menu {
+  text-decoration: none;
+  vertical-align: baseline;
+  background: transparent;
+  margin: 0;
+  outline: 0;
+  border: 0 none;
+  padding: 0;
+}
+input,
+textarea,
+select,
+button,
+optgroup {
+  font-family: inherit;
+  line-height: inherit;
+}
+h1,
+h2,
+h3,
+dt,
+strong,
+label,
+.markit-formats .markit-bold,
+.button {
+  font-family: "Open Sans", Myriad, Lucida, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+h4,
+dd,
+th,
+blockquote p,
+label.minor,
+header .contact a {
+  font-family: "Open Sans", Myriad, Lucida, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+em,
+cite,
+cite abbr,
+var,
+.role,
+.meta,
+p i,
+.markit-formats .markit-italic {
+  font-family: "Premiera Italic", Premiera, 'Droid Serif', Georgia, serif;
+  font-weight: normal;
+  font-style: italic;
+}
+strong em {
+  font-family: "Open Sans", Myriad, Lucida, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.icon:before,
+nav.primary li:before,
+footer.contentinfo small nav li:after,
+.carousel .control,
+.zoomer,
+.sibling-nav a,
+.elsewhere ul a:before {
+  font-family: Cleardings;
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  color: #333;
+  font-family: "Open Sans", Myriad, Lucida, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background: #F5F5F5;
+  margin: 3em;
+}
+.dense  {
+  font-size: 90%;
+}
+body.no-scroll {
+  overflow-y: hidden;
+}
+address {
+  font-style: normal;
+}
+h1 {
+  color: #777;
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 200;
+  line-height: 1.1111;
+}
+h1 a,
+h1 a:hover {
+  color: #555;
+  text-decoration: none;
+}
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+h3 {
+  color: #333;
+  font-size: 18px;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+h4 {
+  color: #333;
+  font-size: 18px;
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 1.25;
+}
+h5 {
+  color: #555;
+  font-size: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+h6 {
+  color: #555;
+  font-size: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+@media all and (min-width: 50em) {
+  body {
+    /*font-size: 14px;
+    font-size: 1rem;*/
+  }
+  h2 {
+    font-size: 28px;
+    font-size: 1.5rem;
+  }
+  h3 {
+    color: #333;
+    font-size: 18px;
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+hr,
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset,
+summary {
+  margin: 0 0 1rem;
+}
+hr {
+  display: block;
+  background: none;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #dce0d9;
+}
+/* things that should be indented when used in text (override when ol and ul are uses in menus) */
+ol,
+ul {
+  padding-left: 1.25em;
+}
+blockquote,
+pre,
+fieldset {
+  border: 0;
+  border-left: 0.25em solid #dce0d9;
+  padding: 1em 1.25em;
+  background: #fff;
+}
+.code {
+  border-left: 1.5em solid #dce0d9;
+  padding: 1em 1.5em;
+  background: #fff;
+}
+.code li {
+  margin-left: -1.2em;
+}
+summary {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+details {
+  background: 0;
+  border: 0;
+}
+legend {
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
+}
+blockquote p {
+  font-family: "georgia", times, serif;
+  font-style: italic;
+  font-size: 105%;
+  color: #555;
+  line-height: 1.4;
+}
+blockquote footer {
+  color: #333;
+  font-size: 12px;
+  font-size: .8em;
+  margin: 0;
+}
+ol {
+  list-style-type: decimal;
+}
+li {
+  list-style-position: inside;
+  list-style-image: c
+}
+@media all and (min-width: 35em) {
+  li {
+    list-style-position: outside;
+  }
+}
+dl {
+  margin: 1.5em 0;
+}
+dt {
+  color: #333;
+  margin: 1.5em 0 0.5em;
+}
+figure {
+  margin: 1.5em 0;
+}
+figure:first-child {
+  margin-top: 0;
+}
+a,
+.a,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  color: #333;
+  -webkit-tap-highlight-color: #ffffff;
+  text-decoration: none;
+}
+input:focus {
+  outline: 1px solid #ffffff;
+}
+a:hover,
+a:hover .a,
+a:active,
+a:active .a,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  color: #555;
+  text-decoration: underline;
+  background-color: none;
+  outline: none;
+}
+a:link,
+a:link .a,
+a:visited,
+a:visited .a,
+a:hover,
+.a:hover,
+a:link img,
+a:visited img,
+a:hover img,
+a:active img,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.icon:before {
+  -webkit-transition: 'color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease';
+  -moz-transition: 'color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease';
+  transition: 'color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease';
+}
+a[href^="tel:"] {
+  text-decoration: none;
+  cursor: default;
+}
+:lang(en-gb)>q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
+abbr,
+.c2sc {
+  -webkit-font-feature-settings: "c2sc" 1;
+  -moz-font-feature-settings: "c2sc" 1;
+  -moz-font-feature-settings: "c2sc=1";
+  -ms-font-feature-settings: "c2sc" 1;
+  -o-font-feature-settings: "c2sc" 1;
+  font-feature-settings: "c2sc" 1;
+}
+code {
+  color: #792c5c;
+}
+code,
+kbd,
+samp {
+  font-family: monospace;
+  font-size: 1.3em;
+  color: #00AA00;
+}
+ins {
+  text-decoration: underline;
+}
+del {
+  text-decoration: line-through;
+}
+mark {
+  background-color: yellow;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+video {
+  width: 100%;
+  margin-bottom: 2em;
+}
+label {
+  display: block;
+}
+input {
+  padding: 0.25em;
+  box-sizing: border-box;
+  width: 40em;
+  max-width: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button,
+.button:link {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background: #a0c33f;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  margin: 0;
+  padding: 0.75em 1em;
+  width: auto;
+  display: inline-block;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:hover,
+.button:focus {
+  text-decoration: none;
+  color: #fff;
+  background: #91b137;
+}
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+.button:active {
+  color: #FFF;
+  text-decoration: none;
+  background: #a0c33f;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  color: #333;
+  border: 1px solid #dce0d9;
+  box-sizing: border-box;
+  padding: 0.25em;
+  width: 40em;
+  max-width: 100%;
+  background: #FFF;
+}
+textarea {
+  height: 15em;
+}
+textarea#summary,
+textarea#tags {
+  height: auto;
+}
+a.button {
+  text-align: left;
+  position: relative;
+  line-height: 1;
+}
+.center {
+  text-align: center;
+}
+.left {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+.right {
+  float: right;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+.unstyled {
+  list-style: none;
+}
+
+.left-col {
+  float: left;
+  width: 60%;
+}
+.right-col {
+  float: right;
+  width: 30%;
+}
+
