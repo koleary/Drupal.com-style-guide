@@ -79,11 +79,6 @@ th,
 form,
 fieldset,
 legend,
-label,
-input,
-button,
-select,
-textarea,
 details,
 summary,
 command,
@@ -96,22 +91,21 @@ menu {
   border: 0 none;
   padding: 0;
 }
-input,
+/*input,
 textarea,
 select,
 button,
 optgroup {
   font-family: inherit;
   line-height: inherit;
-}
+}*/
 h1,
 h2,
 h3,
 dt,
 strong,
 label,
-.markit-formats .markit-bold,
-.button {
+.markit-formats .markit-bold {
   font-family: "Open Sans", Myriad, Lucida, sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -156,10 +150,9 @@ footer.contentinfo small nav li:after,
 }
 body {
   color: #333;
-  font-family: "Open Sans", Myriad, Lucida, sans-serif;
+  font-family: "Open Sans", "Myriad Pro", "Lucida Sans Unicode", Myriad, sans-serif;
   font-weight: normal;
   font-style: normal;
-  background: #F5F5F5;
   margin: 3em;
 }
 .dense  {
@@ -219,10 +212,6 @@ h6 {
 }
 
 @media all and (min-width: 50em) {
-  body {
-    /*font-size: 14px;
-    font-size: 1rem;*/
-  }
   h2 {
     font-size: 28px;
     font-size: 1.5rem;
@@ -333,10 +322,7 @@ figure:first-child {
   margin-top: 0;
 }
 a,
-.a,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+.a  {
   color: #333;
   -webkit-tap-highlight-color: #ffffff;
   text-decoration: none;
@@ -347,10 +333,7 @@ input:focus {
 a:hover,
 a:hover .a,
 a:active,
-a:active .a,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover {
+a:active .a {
   color: #555;
   text-decoration: underline;
   background-color: none;
@@ -366,9 +349,6 @@ a:link img,
 a:visited img,
 a:hover img,
 a:active img,
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
 .icon:before {
   -webkit-transition: 'color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease';
   -moz-transition: 'color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease';
@@ -423,77 +403,6 @@ video {
   width: 100%;
   margin-bottom: 2em;
 }
-label {
-  display: block;
-}
-input {
-  padding: 0.25em;
-  box-sizing: border-box;
-  width: 40em;
-  max-width: 100%;
-}
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-}
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-.button,
-.button:link {
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  background: #a0c33f;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  margin: 0;
-  padding: 0.75em 1em;
-  width: auto;
-  display: inline-block;
-  cursor: pointer;
-}
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:hover,
-.button:focus {
-  text-decoration: none;
-  color: #fff;
-  background: #91b137;
-}
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active,
-.button:active {
-  color: #FFF;
-  text-decoration: none;
-  background: #a0c33f;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-  color: #333;
-  border: 1px solid #dce0d9;
-  box-sizing: border-box;
-  padding: 0.25em;
-  width: 40em;
-  max-width: 100%;
-  background: #FFF;
-}
-textarea {
-  height: 15em;
-}
-textarea#summary,
-textarea#tags {
-  height: auto;
-}
-a.button {
-  text-align: left;
-  position: relative;
-  line-height: 1;
-}
 .center {
   text-align: center;
 }
@@ -510,7 +419,6 @@ a.button {
 .unstyled {
   list-style: none;
 }
-
 .left-col {
   float: left;
   width: 60%;

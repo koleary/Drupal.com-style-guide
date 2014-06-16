@@ -34,12 +34,10 @@ th {
   text-align: left;
   text-transform: uppercase;
   letter-spacing: .05em;
-  white-space: nowrap;
 }
 td {
   border-bottom: 1px solid #ddd;
   padding: 0.5rem 3rem 0.5rem 1rem;
-  white-space: nowrap;
 }
 td a {
   color: #29AAE1;
